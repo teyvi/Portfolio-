@@ -10,19 +10,22 @@ function App() {
   return (
     <BrowserRouter>
       <section className="snap-y snap-mandatory">
-      <div className="h-64 whitesmoke"></div>
+        <div className="h-64 whitesmoke"></div>
         <section className=" snap-always snap-center container mx-auto mt-6 text-bold flex flex-col ">
           <Link to="#/">
-          <h1 className="text-3xl" id="/"> Hello!</h1>
+            <h1 className="text-3xl" id="/">
+              {" "}
+              Hello!
+            </h1>
           </Link>
           <h1 className="text-7xl mb-6 mt-5 ">Angela Teyvi</h1>
           <p className="ibm-regular font-bold">
             Im a Web Developer with interest and proven records in frontEnd and
             Backend technologies. I work to bring clients ideas into being in
-            clean and intuitive way. Transtioning from the
-            geospatial sector, I am particulaly drawn to new technologies, their
-            capabilities and I want to be part of the technology revolution by
-            creating amazing webapps.
+            clean and intuitive way. Transtioning from the geospatial sector, I
+            am particulaly drawn to new technologies, their capabilities and I
+            want to be part of the technology revolution by creating amazing
+            webapps.
           </p>
         </section>
         <div className="w-full h-40 whitesmoke"></div>
@@ -32,22 +35,25 @@ function App() {
             <h1 className=" hover:bg-red-200 "> Experience</h1>
           </Link>
           <Link to="#projects">
-          <h1 className=" hover:bg-red-200"> Projects</h1>
+            <h1 className=" hover:bg-red-200"> Projects</h1>
           </Link>
 
           <Link to="#skills">
-          <h1 className=" hover:bg-red-200"> Skills</h1>
+            <h1 className=" hover:bg-red-200"> Skills</h1>
           </Link>
           <Link to="#blog">
-          <h1 className=" hover:bg-red-200"> Blog</h1>
+            <h1 className=" hover:bg-red-200"> Blog</h1>
           </Link>
           <Link to="#contact">
-          <h1 className=" hover:bg-red-200"> Contact</h1>
+            <h1 className=" hover:bg-red-200"> Contact</h1>
           </Link>
         </section>
         <div className="w-full h-40 whitesmoke"></div>
 
-        <section className="snap-always snap-center container mx-auto mt-6 " id="experience">
+        <section
+          className="snap-always snap-center container mx-auto mt-6 "
+          id="experience"
+        >
           <h1 className="text-3xl">Experience</h1>
           <hr className="w-full h-px my-2 bg-gray-200 border-0 dark:bg-gray-700 " />
           <div className="mt-6 mb-6 ibm-extrathin">
@@ -58,14 +64,24 @@ function App() {
               </h2>
               <ul className="text-left list-disc ibm-regular">
                 <li className="mb-3">
-                Engineered the backend infrastructure for a portfolio project, leveraging Express.js, Render, and Swagger for efficient endpoint management and documentation
+                  Engineered the backend infrastructure for a portfolio project,
+                  leveraging Express.js, Render, and Swagger for efficient
+                  endpoint management and documentation
                 </li>
                 <li className="mb-3">
-                Led the development of a full-stack e-commerce platform, utilizing localStorage for optimized asset storage and JavaScript to deliver seamless user experiences.
+                  Led the development of a full-stack e-commerce platform,
+                  utilizing localStorage for optimized asset storage and
+                  JavaScript to deliver seamless user experiences.
                 </li>
-                <li>Developed a custom movie API to integrate data from the TMDP API, enhancing website functionality and enriching user interactions.</li>
+                <li>
+                  Developed a custom movie API to integrate data from the TMDP
+                  API, enhancing website functionality and enriching user
+                  interactions.
+                </li>
                 <li className="mb-3">
-                Designed and implemented a visually engaging landing page for a candle business, featuring product showcases and immersive video descriptions to amplify brand engagement.
+                  Designed and implemented a visually engaging landing page for
+                  a candle business, featuring product showcases and immersive
+                  video descriptions to amplify brand engagement.
                 </li>
               </ul>
             </div>
@@ -178,51 +194,79 @@ function App() {
         </section>
         <div className="w-full h-40 whitesmoke"></div>
 
-        <section className="snap-always snap-center container mx-auto mt-6" id="projects">
+        <section
+          className="snap-always snap-center container mx-auto mt-6"
+          id="projects"
+        >
           <h1 className="text-3xl">Projects</h1>
           <hr className="w-full h-px my-2 bg-gray-200 border-0 dark:bg-gray-700 " />
 
           <div className="grid  grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-5">
             <div>
-              <img
-                src={Movie}
-                alt=""
-                className="64 h-40 bg-slate-200 m-4 rounded-2xl"
-              />
-              <h1 className="mx-4 px-6"> MOVIE API </h1>
+              <a
+                href="https://github.com/Opal-Organic-Market/movieSearchApp"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={Movie}
+                  alt="movie"
+                  className="64 h-40 bg-slate-200 m-4 rounded-2xl"
+                />
+                <h1 className="mx-4 px-6"> MOVIE API </h1>
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://github.com/Opal-Organic-Market/Portfolio_api"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={Portfolio}
+                  alt="portfolio"
+                  className="64 h-40 bg-slate-200 m-4 rounded-2xl"
+                />
+                <h1 className="mx-4 px-6"> PORTFOLIO API</h1>
+              </a>
             </div>
 
             <div>
-              <img
-                src={Portfolio}
-                alt="portfolio"
-                className="64 h-40 bg-slate-200 m-4 rounded-2xl"
-              />
-              <h1 className="mx-4 px-6"> PORTFOLIO</h1>
-            </div>
-
-            <div>
+            <a
+                href="https://github.com/teyvi/candleLandingPage"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
               <img
                 src={Candle}
                 alt="candle"
                 className="64 h-40 bg-slate-200 m-4 rounded-2xl"
               />
               <h1 className="mx-4 px-6"> LANDING PAGE</h1>
+              </a>
             </div>
-
             <div>
-              <img
-                src={Agro}
-                alt="agro"
-                className="64 h-40 bg-slate-200 m-4 rounded-2xl"
-              />
-              <h1 className="mx-6 px-6">ECORMMERCE</h1>
+              <a
+                href="https://github.com/Opal-Organic-Market/Opal-Foodcart"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={Agro}
+                  alt="agro"
+                  className="64 h-40 bg-slate-200 m-4 rounded-2xl"
+                />
+                <h1 className="mx-6 px-6">ECORMMERCE</h1>
+              </a>
             </div>
           </div>
         </section>
         <div className="w-full h-64 whitesmoke"></div>
 
-        <section className="snap-always snap-center container mx-auto mt-6" id="skills">
+        <section
+          className="snap-always snap-center container mx-auto mt-6"
+          id="skills"
+        >
           <h1 className="text-3xl ">Skills</h1>
           <hr className="w-full h-px my-2 bg-gray-200 border-0 dark:bg-gray-700 " />
           <div>
@@ -285,7 +329,10 @@ function App() {
 
         <div className="w-full h-40 whitesmoke"></div>
 
-        <section className="snap-always snap-center container mx-auto mt-6" id="blog">
+        <section
+          className="snap-always snap-center container mx-auto mt-6"
+          id="blog"
+        >
           <h1 className="text-3xl">Blog</h1>
           <hr className="w-full h-px my-2 bg-gray-200 border-0 dark:bg-gray-700 " />
           <div className="ibm-regular font-bold ">
@@ -365,7 +412,10 @@ function App() {
         </section>
 
         <div className="w-full h-40 whitesmoke"></div>
-        <section className="snap-always snap-center container mx-auto mt-6" id="contact">
+        <section
+          className="snap-always snap-center container mx-auto mt-6"
+          id="contact"
+        >
           <h1 className="text-3xl">Contact</h1>
           <hr className="w-full h-px my-2 bg-gray-200 border-0 dark:bg-gray-700 " />
 
@@ -392,6 +442,14 @@ function App() {
               rel="noopener noreferrer"
             >
               <li className="mb-4">Twitter: @AngelaTeyvi</li>
+            </a>
+
+            <a
+              href="https://github.com/teyvi"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <li className="mb-4">GitHub: teyvi</li>
             </a>
           </ul>
 
