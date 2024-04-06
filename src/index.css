@@ -1,13 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
+  background-color: whitesmoke;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+ 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+section {
+  display: grid;
+  place-items: start;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0 100px;
+  max-width: 1200px
+}
+
+p, span, div,ul {
+  word-wrap: break-word;
+}
+
+@font-face {
+  font-family: hattori;
+  src: url(./assets/fonts/Hattori-Hanzo/Hattori_Hanzo.otf);
+}
+.hattori{
+  font-family: hattori;
+}
+
+@font-face {
+  font-family: virtuous;
+  src: url(./assets/fonts/Virtuous-Slab-Font/Virtuous-Slab\ Thin.otf);
+}
+.virtuous{
+  font-family: virtuous;
+}
+
+@font-face {
+  font-family: Minimal-black;
+  src: url(./assets/fonts/Minimal_Mono/Minimal-Mono-Black.otf);
+}
+.Minimal-black{
+  font-family: Minimal-black;
+}
+
+@font-face {
+  font-family: Minimal-bold;
+  src: url(./assets/fonts/Minimal_Mono/Minimal-Mono-Bold.otf);
+}
+.Minimal-bold{
+  font-family: Minimal-bold;
+}
+
+@font-face {
+  font-family: Minimal-regular;
+  src: url(./assets/fonts/Minimal_Mono/Minimal-Mono-Regular.otf);
+}
+.Minimal-regular{
+  font-family: Minimal-regular;
+}
+
+@font-face {
+  font-family: giraffey;
+  src: url(./assets/fonts/Giraffey/Giraffey.otf);
+}
+.giraffey{
+font-family: giraffey;
+}
+
+@font-face {
+  font-family: girdo;
+  src: url(./assets/fonts/GidoleFont/Gidole-Regular.ttf);
+}
+
+.girdo{
+  font-family: girdo;
+}
+
+
+@font-face {
+  font-family: ibm-extrathin;
+  src: url(./assets/fonts/IBM_Plex_Mono/IBMPlexMono-ExtraLight.ttf);
+}
+.ibm-extrathin{
+  font-family: ibm-extrathin;
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: ibm-regular;
+  src: url(./assets/fonts/IBM_Plex_Mono/IBMPlexMono-Regular.ttf);
+}
+.ibm-regular{
+  font-family: ibm-regular;
 }
