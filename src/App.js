@@ -256,7 +256,7 @@ function App() {
                   alt="agro"
                   className="64 h-40 bg-slate-200 m-4 rounded-2xl"
                 />
-                <h1 className="mx-6 px-6">ECORMMERCE</h1>
+                <h1 className="mx-6 px-6">ECOMMERCE</h1>
               </a>
             </div>
           </div>
