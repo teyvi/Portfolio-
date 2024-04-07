@@ -20,12 +20,7 @@ function App() {
           </Link>
           <h1 className="text-7xl mb-6 mt-5 ">Angela Teyvi</h1>
           <p className="ibm-regular font-bold">
-            Im a Web Developer with interest and proven records in frontEnd and
-            Backend technologies. I work to bring clients ideas into being in
-            clean and intuitive way. Transtioning from the geospatial sector, I
-            am particulaly drawn to new technologies, their capabilities and I
-            want to be part of the technology revolution by creating amazing
-            webapps.
+          I'm a Web Developer with interests and proven records in both Frontend and Backend technologies. My work revolves around bringing clients' ideas to life in a clean and intuitive manner. I have extensive experience collaborating in the geospatial arena, transcending borders and seamlessly working with diverse teams across continents. With a demonstrated ability to excel in any global setting, I am adept at thriving in diverse environments.
           </p>
         </section>
         <div className="w-full h-40 whitesmoke"></div>
