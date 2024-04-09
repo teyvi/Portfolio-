@@ -196,7 +196,7 @@ function App() {
           <h1 className="text-3xl">Projects</h1>
           <hr className="w-full h-px my-2 bg-gray-200 border-0 dark:bg-gray-700 " />
 
-          <div className="grid  grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-5">
+          <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-5">
             <div>
               <a
                 href="https://github.com/Opal-Organic-Market/movieSearchApp"
