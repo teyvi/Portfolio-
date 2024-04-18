@@ -242,7 +242,7 @@ function App() {
             </div>
             <div>
               <a
-                href="https://github.com/Opal-Organic-Market/Opal-Foodcart"
+                href="https://opalfoodcart.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
