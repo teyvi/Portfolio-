@@ -20,7 +20,13 @@ function App() {
           </Link>
           <h1 className="text-7xl mb-6 mt-5 ">Angela Teyvi</h1>
           <p className="ibm-regular font-bold">
-          I'm a Web Developer with interests and proven records in both Frontend and Backend technologies. My work revolves around bringing clients' ideas to life in a clean and intuitive manner. I have extensive experience collaborating in the geospatial arena, transcending borders and seamlessly working with diverse teams across continents. With a demonstrated ability to excel in any global setting, I am adept at thriving in diverse environments.
+            I'm a Web Developer with interests and proven records in both
+            Frontend and Backend technologies. My work revolves around bringing
+            clients' ideas to life in a clean and intuitive manner. I have
+            extensive experience collaborating in the geospatial arena,
+            transcending borders and seamlessly working with diverse teams
+            across continents. With a demonstrated ability to excel in any
+            global setting, I am adept at thriving in diverse environments.
           </p>
         </section>
         <div className="w-full h-40 whitesmoke"></div>
@@ -52,7 +58,32 @@ function App() {
           <h1 className="text-3xl">Experience</h1>
           <hr className="w-full h-px my-2 bg-gray-200 border-0 dark:bg-gray-700 " />
           <div className="mt-6 mb-6 ibm-extrathin">
-            <div className="">
+            <div className="mt-6 mb-6 ">
+              <h2 className="text-xl mb-3 ibm-regular">
+                FrontEnd Developer - CoreXtreme: April 2024 - Present
+              </h2>
+              <ul className="text-left list-disc ibm-regular">
+                <li className="mb-3">
+                  Implemented Firebase authentication for user login and sign
+                  up, enabling email/password and Google authentication methods.
+                </li>
+                <li className="mb-3">
+                  Initialized Firebase storage for file storage and integrated
+                  it with the frontend UI provided by the developers.
+                </li>
+                <li>
+                  Managed the configuration of Firebase services including
+                  database, store, and authentication.
+                </li>
+                <li className="mb-3">
+                  Led the team, ensuring effective collaboration and
+                  troubleshooting by debugging code errors, maintaining
+                  punctuality for meetings, and providing regular updates on
+                  work progress and challenges encountered.
+                </li>
+              </ul>
+            </div>
+            <div className="mt-6 mb-6 ">
               <h2 className="text-xl mb-3 ibm-regular">
                 {" "}
                 Web Developer: Febuary 2024 - Present
@@ -83,7 +114,6 @@ function App() {
 
             <div className="mt-6 ibm-regular">
               <h2 className="text-xl mb-3 ">
-                {" "}
                 Geospatial Specialist:2020 - 2024
               </h2>
               <p>
@@ -227,17 +257,17 @@ function App() {
             </div>
 
             <div>
-            <a
+              <a
                 href="https://github.com/teyvi/candleLandingPage"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-              <img
-                src={Candle}
-                alt="candle"
-                className="64 h-40 bg-slate-200 m-4 rounded-2xl"
-              />
-              <h1 className="mx-4 px-6"> LANDING PAGE</h1>
+                <img
+                  src={Candle}
+                  alt="candle"
+                  className="64 h-40 bg-slate-200 m-4 rounded-2xl"
+                />
+                <h1 className="mx-4 px-6"> LANDING PAGE</h1>
               </a>
             </div>
             <div>
