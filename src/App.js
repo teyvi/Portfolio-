@@ -229,7 +229,7 @@ function App() {
           <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-5">
             <div>
               <a
-                href="https://github.com/Opal-Organic-Market/movieSearchApp"
+                href="https://opalflix.netlify.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -258,7 +258,7 @@ function App() {
 
             <div>
               <a
-                href="https://github.com/teyvi/candleLandingPage"
+                href="https://stellular-cheesecake-2e1c23.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
