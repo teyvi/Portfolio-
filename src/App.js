@@ -5,11 +5,18 @@ import Portfolio from "./assets/joshua-aragon-BMnhuwFYr7w-unsplash.jpg";
 import Candle from "./assets/rebecca-peterson-hall-aN-zGYlxiCI-unsplash.jpg";
 import { BrowserRouter } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
+import ParticlesComponent from "./components/particle";
 
 function App() {
   return (
     <BrowserRouter>
-      <section className="snap-y snap-mandatory">
+    <ParticlesComponent id='particles'/>
+    <div className="">
+      <div className="relative w-full">
+        <div className="absolute top-0 "> </div>
+
+      </div>
+      <section className="snap-y snap-mandatory ">
         <div className="h-64 whitesmoke"></div>
         <section className=" snap-always snap-center container mx-auto mt-6 text-bold flex flex-col ">
           <Link to="#/">
@@ -489,7 +496,10 @@ function App() {
         </section>
         <div className="w-full h-40 whitesmoke"></div>
       </section>
+      </div>
+      {/* </ParticlesComponent> */}
     </BrowserRouter>
+    
   );
 }
 
