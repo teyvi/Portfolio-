@@ -353,9 +353,10 @@ function App() {
               <h3 className=" text-green-400 "> GITHUB</h3>
             </div>
 
-            <div>
-              <h3 className=" text-red-400 "> MONGOOSE</h3>
+             <div>
+              <h3 className=" text-red-400 "> FIGMA</h3>
             </div>
+        
           </div>
         </section>
 
