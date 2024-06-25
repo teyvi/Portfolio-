@@ -55,6 +55,9 @@ function App() {
           <Link to="#contact">
             <h1 className=" hover:bg-red-200"> Contact</h1>
           </Link>
+          <a href="/AngelaTeyvi_CV.pdf" download>
+            <button className=" hover:bg-red-200 p-4"> Download CV</button>
+          </a>
         </section>
         <div className="w-full h-40 whitesmoke"></div>
 
