@@ -96,7 +96,7 @@ function App() {
               </div>
               <div className="mt-6 mb-6 ">
                 <h2 className="text-xl mb-3 ibm-regular">
-                  BackEnd Developer - CoreXtreme: April 2024 - Present
+                  BackEnd Developer - CoreXtreme: April 2024 - May 2024
                 </h2>
                 <ul className="text-left list-disc ibm-regular">
                   <li className="mb-3">
